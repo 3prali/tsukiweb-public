@@ -1,3 +1,6 @@
 [submodule "tsukiweb-common"]
 	path = tsukiweb-common
 	url = https://github.com/requinDr/tsukiweb-common.git
+[submodule "public/static/jp/CD_original"]
+	path = public/static/jp/CD_original
+	url = https://github.com/3prali/Tsukiremake-ostweb.git
