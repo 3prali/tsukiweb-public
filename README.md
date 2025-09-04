@@ -8,7 +8,7 @@ It offers a better experience in general.
 To download the source code and run the game locally, follow one of the two methods:
 ### Node
 1) install [`node.js`](https://nodejs.org/en/download) (version `18 / 20 / 22+` is required)
-2) Get the source code: `git clone --recursive`
+2) Get the source code: `git clone --recursive https://github.com/3prali/tsukiweb-public.git`
 3) Install project dependencies with `npm i`
 4) Start the localhost with `npm start`
 5) Open your browser at the localhost address specified in the output of the previous command
