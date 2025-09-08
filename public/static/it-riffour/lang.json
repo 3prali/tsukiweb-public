@@ -15,14 +15,25 @@
 	"scripts-dir": "./scenes/",
 
 	"images": {
-		"thumb" : {
-			"tachi/osiete" : "./image/%0.webp"
+		"words": {
+			"fin": "#ffffff$c`[center][noline][color=black][font=serif]Fine`",
+			"end": "#ffffff$b`[right][noline][color=black][font=serif]END`",
+			"pd_fin": "#000000$b`[right][noline][font=serif]Fine`",
+			"pd_genshi": "#000000$b`[right][noline][font=serif][u]Storia Breve/Alleanza di Occhi Mistici`",
+			"pd_tea": "#000000$t`[left][noline][noline][font=serif][u]Tè di Luna`",
+			"pd_one_a": "#000000$c`[center][noline][font=serif]Primo Giorno/1`",
+			"pd_one_b": "#000000$c`[center][noline][font=serif]Primo Giorno/2`",
+			"pd_two": "#000000$c`[center][noline][font=serif]Secondo Giorno`",
+			"pd_three": "#000000$c`[center][noline][font=serif]Terzo Giorno`"
 		},
-		"sd" : {
-			"tachi/osiete" : "./image/%0.webp"
+		"thumb": {
+			"tachi/osiete": "./image/%0.webp"
 		},
-		"hd" : {
-			"tachi/osiete" : "./image_x2/%0.webp"
+		"sd": {
+			"tachi/osiete": "./image/%0.webp"
+		},
+		"hd": {
+			"tachi/osiete": "./image_x2/%0.webp"
 		}
 	},
 	"disclaimer": [
@@ -103,7 +114,7 @@
 			"history": "Show/hide History",
 			"back": "Close current view / Display menu",
 			"bg_move": "Move background image",
-			"auto_play" : "Auto-play",
+			"auto_play": "Auto-play",
 			"page_nav": "Navigate to next / previous page",
 			"load": "Open load panel",
 			"save": "Open save panel",

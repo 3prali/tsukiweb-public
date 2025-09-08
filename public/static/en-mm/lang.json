@@ -15,14 +15,25 @@
 	"scripts-dir": "./scenes/",
 	
 	"images": {
-		"thumb" : {
-			"tachi/osiete" : "./image/%0.webp"
+		"words": {
+			"fin": "#ffffff$c`[center][noline][color=black][font=serif]Fin`",
+			"end": "#ffffff$b`[right][noline][color=black][font=serif]END`",
+			"pd_fin": "#000000$b`[right][noline][font=serif]Fin`",
+			"pd_genshi": "#000000$b`[right][noline][font=serif][u]Short Story/Alliance of Illusionary Eyes`",
+			"pd_tea": "#000000$t`[left][noline][noline][font=serif][u]Moon Tea`",
+			"pd_one_a": "#000000$c`[center][noline][font=serif]First Day/1`",
+			"pd_one_b": "#000000$c`[center][noline][font=serif]First Day/2`",
+			"pd_two": "#000000$c`[center][noline][font=serif]Second Day`",
+			"pd_three": "#000000$c`[center][noline][font=serif]Third Day`"
 		},
-		"sd" : {
-			"tachi/osiete" : "./image/%0.webp"
+		"thumb": {
+			"tachi/osiete": "./image/%0.webp"
 		},
-		"hd" : {
-			"tachi/osiete" : "./image_x2/%0.webp"
+		"sd": {
+			"tachi/osiete": "./image/%0.webp"
+		},
+		"hd": {
+			"tachi/osiete": "./image_x2/%0.webp"
 		}
 	},
 	"disclaimer": [
@@ -62,9 +73,14 @@
 		"volume-master": "General volume",
 		"volume-track": "Music volume",
 		"volume-se": "SFX volume",
-		"volume-title-track" : "Title music volume",
-		"volume-system-se" : "System SFX volume",
+		"volume-title-track": "Title music volume",
+		"volume-system-se": "System SFX volume",
 		"track-source": "Track Source",
+		"track-sources": {
+			"original": "Original (2000)",
+			"everafter": "Ever After (2002)",
+			"tsukibako": "Tsuki-Bako (2003)"
+		},
 		"track-source-help": [
 			"[b]Original[/b]: Original soundtrack of the complete game from 2000.",
 			"[b]Ever After[/b]: Remake of the original soundtrack, published in 2002.",
@@ -111,7 +127,7 @@
 			"history": "Show/hide History",
 			"back": "Close current view / Display menu",
 			"bg_move": "Move background image",
-			"auto_play" : "Auto-play",
+			"auto_play": "Auto-play",
 			"page_nav": "Navigate to next / previous page",
 			"load": "Open load panel",
 			"save": "Open save panel",
